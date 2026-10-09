@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distributed-training-sim"
+version = "0.1.0"
+description = "CPU-only simulator for data-parallel training communication strategies"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+dtrain-sim = "dtrain_sim.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dtrain_sim*"]

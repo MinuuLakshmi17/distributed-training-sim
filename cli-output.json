@@ -1,0 +1,15 @@
+{
+  "strategy": "ring",
+  "steps": 5,
+  "initial_loss": 0.8028711484593837,
+  "final_loss": 0.5782875548683312,
+  "messages": 108,
+  "bytes_sent": 448,
+  "communication_seconds": 0.10800448,
+  "simulated_training_seconds": 0.95800448,
+  "recovered_failures": 1,
+  "final_parameters": [
+    0.244788,
+    0.164749
+  ]
+}
